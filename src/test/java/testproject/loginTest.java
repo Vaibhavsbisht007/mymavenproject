@@ -10,11 +10,11 @@ public class loginTest {
 
 	@Test
 	public void logindate() {
-		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager/6.2.0");
+	
 	}
 	
 }
